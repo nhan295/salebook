@@ -1,0 +1,130 @@
+html{
+    background-color: rgb(228, 221, 221);
+   
+}
+img{
+    width: 70%;
+
+}
+.top_content{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: #fff;
+
+}
+#second1 {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    background: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+}
+#second1 button:hover{
+    background-color: #7b2929;
+} 
+
+input{
+    width: 40px;
+    text-align: center;
+    height: 30px;
+}
+
+h2{
+    font-size: xx-large;
+    color: rgb(116, 82, 24);
+    background-color: #fff;
+    margin-top: 10px;
+  
+}
+
+.decribe_product h2{
+    text-align: center;
+    
+    background-color: #fff;
+}
+
+.order{
+    background: #fff;
+    width: 50%;
+}
+.image{
+    background-color: #fff;
+}
+.detail{
+    background-color: #fff;
+    border-radius: 8px ;
+    padding-top: 5px;
+
+}
+.detail_content{
+    background-color: #fff;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+td{
+    background: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    color: #fff;
+    background-color: rgb(198, 69, 69);
+    border-radius: 8px ;
+   
+}
+
+button .minus-btn{
+   
+    background-color: #fff;
+}
+table{
+    background-color: #fff;
+}
+
+input{
+    background: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.second{
+    font-size: 20px;
+    line-height: 32px;
+    color: #7b7373;
+    font-family: 'Roboto', sans-serif !important;
+    padding-left: 20px;
+   
+}
+.book_title{
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Nunito Sans', 'sans-serif';
+    line-height: 1.5em;
+    overflow-wrap: break-word;
+    padding-bottom: 16px;
+}
+
+.book_price{
+    font-size: 32px;
+    line-height: 32px;
+    color: #C92127;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700;
+}
+p{
+    font-size: small;
+}
+.sale_price{
+    font-size: 28px;
+    color: black;
+}
+
+.decribe_product p{
+    font-size: 20px;
+}

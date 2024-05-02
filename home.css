@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(232, 225, 225);
+}
+
+#header{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186, 204, 219);
+    border: 1px solid;
+    padding: 10px;
+    
+}
+
+.logout{
+    display: flex;
+}
+
+.list:hover .sublist{
+    display: block;
+
+}
+
+.sublist {
+    display: none;
+    background-color: aliceblue;
+    position: absolute;
+    text-decoration: none;
+}
+.sublist li:hover{
+    background-color: rgb(136, 165, 175);
+   
+}
+.book{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image{
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.item {
+    /* width: 33.33333%; */
+    width: 25%;
+}
+
+
+
+.item img{
+    width: 100%;
+    align-items: center;
+    height: fit-content;
+    padding: 5px;
+}
+
+
+.list{
+    list-style-type: none;
+}
+
+.sublist{
+    list-style-type: none;
+    /* font-size: large; */
+}
+
+.img_title h2{
+    text-align: center;
+    margin-top: 30px;
+    color:#fff;
+}
+
+.bd{
+    background-color: #272525;
+  
+}
+
+.model {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-header {
+    text-align: center;
+    border-bottom: solid 2px;
+    padding: 20px;
+}
+
+.modal-container {
+    width: 50%;
+    background-color: #fff;
+    margin: auto;
+    height: 130px;
+    margin-top: 240px;
+}
+
+.model-btn a{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+input{
+    border: 2px solid;
+    padding: 5px 0 5px 0;
+    width: 80%;
+    margin-left: 5px;
+}
+
+form{
+    display: inline;
+}
+
+.model-btn {
+    margin: 10px;
+}
+
+h1{
+    font-size: xxx-large;
+}
+
+.book_pri{
+    font-size: large;
+}
+
+.sach_name a{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sach_showinf a{
+    text-decoration: none;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.fix-a {
+    text-decoration: none;
+}
+
+.sublist a {
+    text-decoration: none;
+}
+
+.logout a{
+    text-decoration: none;
+}
+
+.log a{
+    text-decoration: none;
+}
+
+.theloai a{
+    text-decoration: none;
+}
+
